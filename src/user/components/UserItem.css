@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background-color: #555454;
+  overflow-x: hidden;
+   padding-top: 5rem;
+}
+
+.user-item {
+  list-style: none;
+  width: 100%;
+  max-width: 22rem;
+  margin: 1rem auto;   /* 🔥 CENTER + no overflow */
+  box-sizing: border-box;
+}
+
+
+/* Black card */
+.user-item__content {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+/* Avatar + text side by side */
+.user-item__content a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+.user-item__content:hover {
+  transform: translateY(-2px);
+  background: #cc2a05;         /* yellow background */
+  box-shadow: 0 0 12px rgba(25, 24, 24, 0.7);
+}
+.user-item__content:hover h2,
+.user-item__content:hover h3 {
+  color: #000;
+}
+
+/* Text */
+.user-item__info h2 {
+  margin: 0;
+  color: #4bec4b;
+  font-size: 1.2rem;
+}
+
+.user-item__info h3 {
+  margin: 0.2rem 0 0;
+  color: white;
+  font-weight: normal;
+}
+
+
+body {
+  margin: 0;
+  background-image: url('https://media.istockphoto.com/id/474088784/photo/big-jet-airplane-above-clouds.jpg?s=612x612&w=0&k=20&c=ify7nYCEudsR-fNC-vBg5fnpT5Ceu1vkgFLD1zhsTCU=');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  overflow-x: hidden;
+}
